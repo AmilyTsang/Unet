@@ -1,0 +1,54 @@
+# ------------------------
+# Python 基本忽略
+# ------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+.env
+.venv
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 日志 & 临时文件
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ------------------------
+# 本项目特有目录
+# ------------------------
+
+# 训练数据
+inputs/
+
+# 训练输出：模型、日志、预测图
+models/
+outputs/
+
+# 中间结果、缓存
+*.npy
+*.npz
+*.pth
+*.pt
+
+# ------------------------
+# IDE / 编辑器
+# ------------------------
+# PyCharm / IDEA
+.idea/
+
+# VSCode / Cursor
+.vscode/
+.history/
+*.code-workspace
+
+# 其他
+.DS_Store
+Thumbs.db
